@@ -19,3 +19,5 @@ type Constrainer interface {
 	// Produce a new schedule that satisfies constraints by eliminating scheduled terminations
 	Filter(schedule Schedule) Schedule
 }
+
+//Great comment 1

@@ -76,3 +76,5 @@ func (g mockConfigGetter) Get(app string) (*chaosmonkey.AppConfig, error) {
 func countEntries(buf []byte) int {
 	return bytes.Count(buf, []byte("\n"))
 }
+
+//Great comment 3

@@ -304,3 +304,5 @@ func (s Schedule) MarshalJSON() ([]byte, error) {
 func (s *Schedule) UnmarshalJSON(b []byte) (err error) {
 	return json.Unmarshal(b, &s.entries)
 }
+
+//Great comment 2 
